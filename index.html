@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest(2)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+    <!-- professional-dropdown -->
+    <div class="professional-container">
+        <label for="profession-dropdown">Profession:</label>
+        <select name="" id="profession-dropdown">
+            <option value="Developer">Developer</option>
+            <option value="Admin">Admin</option>
+        </select>
+    </div>
+
+
+
+    <!-- list of employees -->
+
+
+    <div class="list-of-employees" id="list-of-employees">
+        <div class="list-item" id="listItem">
+            <span>1</span>
+            <span>Name: John</span>
+            <span>Profession: Developer</span>
+            <span>Age:18</span>
+
+        </div>
+
+        <div class="list-item" id="listItem">
+            <span>2</span>
+            <span>Name: Jack</span>
+            <span>Profession: Developer</span>
+            <span>Age:20</span>
+
+        </div>
+
+
+        <div class="list-item" id="listItem">
+            <span>3</span>
+            <span>Name:Karen</span>
+            <span>Profession: Admin</span>
+            <span>Age:19</span>
+
+        </div>
+
+    </div>
+
+    <!-- filter button -->
+    <button id="filter">Filter</button>
+
+
+    <!-- add a user  -->
+    <h3>Add a user</h3>
+
+
+    <div class="add-items">
+
+        <div class="Name ">
+
+            <label for="name"> Enter Name</label>
+            <input type="text" id="name" style="padding:5px;">
+
+        </div>
+
+        <div class="Profession ">
+
+            <label for="profession"> Enter Profession</label>
+            <input type="text" id="profession" style="padding:5px;" placeholder="Developer/Admin">
+
+        </div>
+
+
+        <div class="Age ">
+
+            <label for="age"> Enter Age</label>
+            <input type="text" id="age" style="padding:5px;">
+
+        </div>
+    </div>
+
+    <button id="addUser">Add User</button>
+
+
+
+
+    <script src="./contest.js"></script>
+
+
+</body>
+
+</html>

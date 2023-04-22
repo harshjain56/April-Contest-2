@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: black;
+    color: white
+}
+
+
+.professional-container {
+    margin: 20px 10px;
+}
+
+
+
+
+
+
+.list-of-employees {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.list-item {
+    display: flex;
+
+    gap: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    width: max-content;
+
+}
+
+#filter {
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.add-items {
+    margin: 40px 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.Name,
+.Age,
+.Profession {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+h3 {
+    margin: 20px;
+}
+
+
+#addUser {
+    margin: 20px 10px;
+    padding: 10px;
+}
