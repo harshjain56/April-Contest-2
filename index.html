@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Data Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="newEmployeeDetails"  id="employeeDetails">
+         <h2>New Employees</h2>
+         <form>
+            <div class="details">
+
+                <div class="employeeName flex">
+                    <label for="name">Enter Name</label>
+                    <input type="text" id="name">
+                </div>
+               
+    
+                <div class="employeeProfession flex">
+                    <label for="profession">Enter Profession</label>
+                    <input type="text" id="profession">
+        
+                </div>
+    
+              <div class="employeeAge flex">
+                <label for="age">Enter age</label>
+                <input type="text" id="age">
+              </div>
+
+            </div>
+            
+          
+          <button  id="addEmployeebtn">Add Employee</button>
+
+          <p id="displayMessage"></p>
+           
+         </form>
+    </div>
+
+
+    <div class="employeeDisplay">
+        <h2>Added Employees</h2>
+        <p id="employeeNumberMessage">You Have 0 Employees</p>
+        <table id="employeeDisplayTable">
+        </table>
+    </div>
+    <script src="./contest.js"></script>
+</body>
+</html>
